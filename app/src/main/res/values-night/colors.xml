@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1F2021</color> <!-- shows on the topbar -->
+    <color name="colorPrimaryDark">#3B3A3A</color>  <!-- shows on the top status bar -->
+    <color name="colorAccent">#03DAC5</color>  <!-- -->
+</resources>
