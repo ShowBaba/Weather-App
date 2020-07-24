@@ -145,11 +145,19 @@
             android:paddingTop="20dp"
             android:paddingBottom="20dp">
 
-            <ImageView
+<!--            <ImageView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="30dp"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:src="@drawable/thermometer_ic" />-->
+            <com.airbnb.lottie.LottieAnimationView
                 android:layout_width="match_parent"
-                android:layout_height="30dp"
-                android:layout_gravity="center"
-                android:src="@drawable/thermometer_ic" />
+                android:layout_height="@dimen/anime_dimen"
+                android:scaleType="centerInside"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/temperature_meter"
+                android:layout_gravity="center"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -197,11 +205,21 @@
             android:paddingTop="20dp"
             android:paddingBottom="20dp">
 
-            <ImageView
+<!--            <ImageView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="30dp"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:src="@drawable/humidity_ic" />-->
+
+            <com.airbnb.lottie.LottieAnimationView
                 android:layout_width="match_parent"
-                android:layout_height="30dp"
-                android:layout_gravity="center"
-                android:src="@drawable/humidity_ic" />
+                android:layout_height="@dimen/anime_dimen"
+                android:scaleType="centerInside"
+                app:lottie_autoPlay="true"
+                app:lottie_speed="2"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/drop_icon"
+                android:layout_gravity="center"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -248,11 +266,20 @@
             android:paddingTop="20dp"
             android:paddingBottom="20dp">
 
-            <ImageView
+<!--            <ImageView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="30dp"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:src="@drawable/wind_ic" />-->
+
+            <com.airbnb.lottie.LottieAnimationView
                 android:layout_width="match_parent"
-                android:layout_height="30dp"
-                android:layout_gravity="center"
-                android:src="@drawable/wind_ic" />
+                android:layout_height="@dimen/anime_dimen"
+                android:scaleType="centerInside"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/windy"
+                android:layout_gravity="center"/>
 
             <TextView
 
@@ -302,11 +329,19 @@
             android:paddingTop="20dp"
             android:paddingBottom="20dp">
 
-            <ImageView
+<!--            <ImageView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="@dimen/anime_dimen"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:src="@drawable/visibility_ic" />-->
+            <com.airbnb.lottie.LottieAnimationView
                 android:layout_width="match_parent"
-                android:layout_height="30dp"
-                android:layout_gravity="center"
-                android:src="@drawable/visibility_ic" />
+                android:layout_height="@dimen/anime_dimen"
+                android:scaleType="centerInside"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/visibility"
+                android:layout_gravity="center"/>
 
             <TextView
                 android:layout_width="match_parent"
